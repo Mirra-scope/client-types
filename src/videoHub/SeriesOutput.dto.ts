@@ -1,4 +1,4 @@
-import { MediaCountriesEnum, MediaLanguagiesEnum, MediaGenriesEnum, MediaStatusEnum } from "..";
+import { MediaCountriesEnum, MediaLanguagiesEnum, MediaGenriesEnum, MediaStatusEnum, Series } from "..";
 
 export interface GetManagerSeriesForTableOutput {
   seriesList: GetManagerTableOutputSeriesList[];
@@ -28,4 +28,8 @@ export interface GetManagerTableOutputSeriesList {
   createdAt: number;
 
   updatedAt: number;
+}
+
+export interface GetManagerSeriesWithImageOutput extends Series {
+  imageUrl: string;
 }
