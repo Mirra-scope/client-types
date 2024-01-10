@@ -59,3 +59,6 @@ export { CreateEpisodeInput } from "./EpisodeInput.dto";
 export { GetNextEpisodeNumberParams } from "./EpisodeInput.dto";
 export { EpisodeIdOutput } from "./EpisodeOutput.dto";
 export { GetNextEpisodeNumberOutput } from "./EpisodeOutput.dto";
+export { GetManagerMovieForTableOutput } from "./MovieOutput.dto";
+export { GetManagerTableMovieListOutput } from "./MovieOutput.dto";
+export { MovieIdOutput } from "./MovieOutput.dto";
