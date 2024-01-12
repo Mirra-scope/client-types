@@ -5,3 +5,7 @@ export interface CreateVideoResourceInput {
 export interface GetVideoResourceByMediaIdInput {
   MediaId: string;
 }
+
+export interface GetVideoResourceByIdInput {
+  ID: string;
+}
