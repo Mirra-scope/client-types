@@ -1,6 +1,6 @@
 {
-  "name": "mirra-scope-client-types",
-  "version": "1.0.4",
+  "name": "zgaya.hub-client-types",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
