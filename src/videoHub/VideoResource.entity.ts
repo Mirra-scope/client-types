@@ -1,7 +1,7 @@
 import { EntityBase } from "..";
 
 export interface VideoResource extends EntityBase {
-  s3ObjectKey: string;
+  key: string;
 
-  s3ObjectUrl: string;
+  url: string;
 }
