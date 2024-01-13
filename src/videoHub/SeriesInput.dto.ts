@@ -30,6 +30,6 @@ export interface UpdateSeriesInput {
   Image: UpdateImageInput;
 }
 
-export interface UpdateSeriesParams {
+export interface SeriesIdParams {
   SeriesId: string;
 }

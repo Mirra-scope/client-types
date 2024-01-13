@@ -49,12 +49,13 @@ export { Series } from "./Series.entity";
 export { GetManagerSeriesForTableOutput } from "./SeriesOutput.dto";
 export { GetManagerTableOutputSeriesList } from "./SeriesOutput.dto";
 export { GetManagerSeriesWithImageOutput } from "./SeriesOutput.dto";
+export { GetSeriesByIdWithAdditionalInfoOutput } from "./SeriesOutput.dto";
 export { CreateSeriesInput } from "./SeriesInput.dto";
 export { DeleteMultipleSeriesByIdzParams } from "./SeriesInput.dto";
 export { DeleteSeriesByIdParams } from "./SeriesInput.dto";
 export { GetManagerSeriesForTableInput } from "./SeriesInput.dto";
 export { UpdateSeriesInput } from "./SeriesInput.dto";
-export { UpdateSeriesParams } from "./SeriesInput.dto";
+export { SeriesIdParams } from "./SeriesInput.dto";
 
 export { Episode } from "./Episode.entity";
 export { ChangeEpisodeSeasonInput } from "./EpisodeInput.dto";
