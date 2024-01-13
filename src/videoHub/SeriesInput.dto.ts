@@ -3,21 +3,14 @@ import { UpdateImageInput } from "./ImageInput.dto";
 
 export interface CreateSeriesInput {
   ImageId: string;
-
   Title: string;
-
-  // have default value
-
   PlotSummary: string;
-
   ReleaseDate: number;
-
   AdditionalInfo: CreateAdditionalInfoInput;
 }
 
 export interface GetManagerSeriesForTableInput {
   Page: number;
-
   PageSize: number;
 }
 
@@ -30,16 +23,10 @@ export interface DeleteMultipleSeriesByIdzParams {
 }
 
 export interface UpdateSeriesInput {
-  Title: string;
-
-  // have default value
-
-  PlotSummary: string;
-
-  ReleaseDate: number;
-
+  Title?: string;
+  PlotSummary?: string;
+  ReleaseDate?: number;
   AdditionalInfo: UpdateAdditionalInfoInput;
-
   Image: UpdateImageInput;
 }
 

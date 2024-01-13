@@ -10,9 +10,9 @@ export interface CreateImageInput {
 }
 
 export interface UpdateImageInput {
-  Url: string;
+  Url?: string;
 
-  Variant: ImageVariantEnum;
+  Variant?: ImageVariantEnum;
 }
 
 export interface ChangeThumbnailImageInput {
