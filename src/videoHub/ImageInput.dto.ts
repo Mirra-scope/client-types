@@ -24,3 +24,8 @@ export interface ChangeThumbnailImageInput {
 export interface GetImageByMediaIdParams {
   MediaId: string;
 }
+
+export declare class CreateImageByUrlInput {
+  Url: string;
+  Variant: ImageVariantEnum;
+}
