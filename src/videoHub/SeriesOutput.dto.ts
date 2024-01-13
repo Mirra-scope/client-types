@@ -25,9 +25,7 @@ export interface GetManagerTableOutputSeriesList {
 
   imageUrl: string;
 
-  createdAt: number;
-
-  updatedAt: number;
+  uploadDate: number;
 }
 
 export interface GetManagerSeriesWithImageOutput extends Series {
