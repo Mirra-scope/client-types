@@ -7,3 +7,9 @@ export interface CreateFinancialInfoInput {
 
   Revenue: number;
 }
+
+export interface UpdateFinancialInfoInput {
+  NetProfit?: number;
+  Budget?: number;
+  Revenue?: number;
+}

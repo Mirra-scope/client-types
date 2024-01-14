@@ -1,3 +1,4 @@
+import { UpdateFinancialInfoInput } from ".";
 import { CreateAdditionalInfoInput, UpdateAdditionalInfoInput } from "./AdditionalInfoInput.dto";
 import { UpdateImageInput } from "./ImageInput.dto";
 
@@ -26,8 +27,9 @@ export interface UpdateSeriesInput {
   Title?: string;
   PlotSummary?: string;
   ReleaseDate?: number;
-  AdditionalInfo: UpdateAdditionalInfoInput;
-  Image: UpdateImageInput;
+  AdditionalInfo?: UpdateAdditionalInfoInput;
+  Image?: UpdateImageInput;
+  financialInfo?: UpdateFinancialInfoInput;
 }
 
 export interface SeriesIdParams {
