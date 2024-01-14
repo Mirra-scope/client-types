@@ -29,7 +29,7 @@ export interface UpdateSeriesInput {
   ReleaseDate?: number;
   AdditionalInfo?: UpdateAdditionalInfoInput;
   Image?: UpdateImageInput;
-  financialInfo?: UpdateFinancialInfoInput;
+  FinancialInfo?: UpdateFinancialInfoInput;
 }
 
 export interface SeriesIdParams {
