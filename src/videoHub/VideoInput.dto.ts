@@ -1,6 +1,6 @@
 
 import { VideoMineType } from "./types";
-import { MirraScopeMediaEnum } from "../common/enum";
+import { ZgayaHubMediaEnum } from "../common/enum";
 
 
 export interface GetUploadVideoSignedUrlInput {
@@ -9,5 +9,5 @@ export interface GetUploadVideoSignedUrlInput {
   RunTime: number;
   SizeInKb: number;
   Mime: VideoMineType;
-  MediaType: MirraScopeMediaEnum;
+  MediaType: ZgayaHubMediaEnum;
 }
