@@ -15,7 +15,13 @@ export interface UpdateImageInput {
   Variant?: ImageVariantEnum;
 }
 
-export interface ChangeThumbnailImageInput {
+export interface ChangeImageInput {
+  Base64: string;
+
+  Mime: ImageMimeType;
+}
+
+export interface ChangeBackdropImageInput {
   Base64: string;
 
   Mime: ImageMimeType;
