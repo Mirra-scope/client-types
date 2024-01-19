@@ -11,7 +11,7 @@ export interface GetManagerTableMovieListOutput {
   releaseDate: number;
   imageUrl: string;
   likeCount: number;
-  ratings: number;
+  avarageRating: number;
   uploadDate: number;
 }
 export interface MovieIdOutput {
