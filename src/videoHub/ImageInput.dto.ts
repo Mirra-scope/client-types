@@ -25,7 +25,7 @@ export interface ImageMediaIdParams {
   MediaId: string;
 }
 
-export declare class CreateImageByUrlInput {
-  Url: string;
-  Variant: ImageVariantEnum;
+export interface CreateImageByUrlInput {
+  Url?: string;
+  Variant?: ImageVariantEnum;
 }
