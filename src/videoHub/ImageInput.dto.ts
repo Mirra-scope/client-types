@@ -6,7 +6,7 @@ export interface CreateImageInput {
 
   Mime: ImageMimeType;
 
-  Variant: ImageVariantEnum;
+  Variant?: ImageVariantEnum;
 }
 
 export interface UpdateImageInput {
