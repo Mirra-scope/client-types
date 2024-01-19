@@ -21,7 +21,7 @@ export interface ChangeThumbnailImageInput {
   Mime: ImageMimeType;
 }
 
-export interface GetImageByMediaIdParams {
+export interface ImageMediaIdParams {
   MediaId: string;
 }
 
