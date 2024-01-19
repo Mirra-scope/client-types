@@ -19,7 +19,10 @@ export interface GetManagerTableOutputSeriesList {
   uploadDate: number;
 }
 
-export interface GetManagerSeriesWithImageOutput extends Series {
+export interface GetManagerSeriesWithImageOutput {
+  title: string;
+  plotSummary: string;
+  ID: string;
   imageUrl: string;
 }
 

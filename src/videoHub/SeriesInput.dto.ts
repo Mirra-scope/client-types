@@ -1,4 +1,4 @@
-import { UpdateFinancialInfoInput } from ".";
+import { CreateFinancialInfoInput, UpdateFinancialInfoInput } from ".";
 import { CreateAdditionalInfoInput, UpdateAdditionalInfoInput } from "./AdditionalInfoInput.dto";
 import { UpdateImageInput } from "./ImageInput.dto";
 
@@ -8,6 +8,7 @@ export interface CreateSeriesInput {
   PlotSummary: string;
   ReleaseDate: number;
   AdditionalInfo: CreateAdditionalInfoInput;
+  FinancialInfo: CreateFinancialInfoInput;
 }
 
 export interface GetManagerSeriesForTableInput {

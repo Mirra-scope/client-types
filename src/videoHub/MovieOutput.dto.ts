@@ -1,18 +1,17 @@
-import { MediaCountriesEnum, MediaLanguagiesEnum, MediaGenriesEnum, MediaStatusEnum } from "..";
+import { MediaStatusEnum } from "..";
 export interface GetManagerMovieForTableOutput {
   movieList: GetManagerTableMovieListOutput[];
   totalRecords: number;
 }
 export interface GetManagerTableMovieListOutput {
   ID: string;
-  originCountry: MediaCountriesEnum;
-  originalLanguage: MediaLanguagiesEnum;
-  genre: MediaGenriesEnum;
   status: MediaStatusEnum;
   title: string;
   plotSummary: string;
   releaseDate: number;
   imageUrl: string;
+  likeCount: number;
+  ratings: number;
   uploadDate: number;
 }
 export interface MovieIdOutput {

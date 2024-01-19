@@ -1,20 +1,39 @@
-import { CreateAdditionalInfoInput } from "./AdditionalInfoInput.dto";
-import { CreateFinancialInfoInput } from "./FinancialInfoInput.dto";
+import { CreateAdditionalInfoInput, UpdateAdditionalInfoInput } from "./AdditionalInfoInput.dto";
+import { CreateFinancialInfoInput, UpdateFinancialInfoInput, UpdateImageInput } from ".";
 
-export interface CreateMovieInput {
-  Title: string;
+export class CreateMovieInput {
+  Title!: string;
+  PlotSummary!: string;
+  ReleaseDate!: number;
+  VideoId!: string;
+  SignedUrlKeyId!: string;
+  ImageId!: string;
+  AdditionalInfo!: CreateAdditionalInfoInput;
+  FinancialInfo!: CreateFinancialInfoInput;
+}
 
-  // have default value
+export class GetManagerMovieForTableInput {
+  Page!: number;
+  PageSize!: number;
+}
 
-  PlotSummary: string;
+export class DeleteMovieByIdParams {
+  MovieId!: string;
+}
 
-  ReleaseDate: number;
+export class DeleteMultipleMovieByIdzParams {
+  MovieIdz!: string[];
+}
 
-  VideoId: string;
+export class MovieIdParams {
+  MovieId!: string;
+}
 
-  SignedUrlKeyId: string;
-
-  ImageId: string;
-
-  AdditionalInfo: CreateAdditionalInfoInput;
+export class UpdateMovieInput {
+  Title!: string;
+  PlotSummary!: string;
+  ReleaseDate!: number;
+  AdditionalInfo!: UpdateAdditionalInfoInput;
+  Image!: UpdateImageInput;
+  FinancialInfo!: UpdateFinancialInfoInput;
 }

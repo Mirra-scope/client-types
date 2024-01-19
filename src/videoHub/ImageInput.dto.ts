@@ -21,12 +21,6 @@ export interface ChangeImageInput {
   Mime: ImageMimeType;
 }
 
-export interface ChangeBackdropImageInput {
-  Base64: string;
-
-  Mime: ImageMimeType;
-}
-
 export interface ImageMediaIdParams {
   MediaId: string;
 }
