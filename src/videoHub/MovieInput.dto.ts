@@ -11,6 +11,11 @@ export interface CreateMovieInput {
   AdditionalInfo: CreateAdditionalInfoInput;
 }
 
+export interface ChangeMovieInput {
+  VideoId: string;
+  SignedUrlKeyId: string;
+}
+
 export interface GetManagerMovieForTableInput {
   Page: number;
   PageSize: number;

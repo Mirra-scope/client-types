@@ -66,3 +66,4 @@ export { MovieIdParams } from "./MovieInput.dto";
 export { UpdateMovieInput } from "./MovieInput.dto";
 export { GetSeriesDataForUpdateFormOutput } from "./SeriesOutput.dto";
 export { GetMovieDataForUpdateFormOutput } from "./MovieOutput.dto";
+export { ChangeMovieInput } from "./MovieInput.dto";
