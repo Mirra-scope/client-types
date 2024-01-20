@@ -1,5 +1,5 @@
 import { CreateAdditionalInfoInput, UpdateAdditionalInfoInput } from "./AdditionalInfoInput.dto";
-import { CreateFinancialInfoInput, UpdateFinancialInfoInput, UpdateImageInput } from ".";
+import { UpdateImageInput } from ".";
 
 export interface CreateMovieInput {
   Title: string;
@@ -9,7 +9,6 @@ export interface CreateMovieInput {
   SignedUrlKeyId: string;
   ImageId: string;
   AdditionalInfo: CreateAdditionalInfoInput;
-  FinancialInfo: CreateFinancialInfoInput;
 }
 
 export interface GetManagerMovieForTableInput {
@@ -35,5 +34,4 @@ export interface UpdateMovieInput {
   ReleaseDate?: number;
   AdditionalInfo?: UpdateAdditionalInfoInput;
   Image?: UpdateImageInput;
-  FinancialInfo?: UpdateFinancialInfoInput;
 }
