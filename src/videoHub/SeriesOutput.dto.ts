@@ -37,9 +37,6 @@ export interface GetSeriesDetailsByIdOutput {
   releaseDate: number;
   backdropImageUrl: string;
   uploadDate: number;
-  netProfit: number;
-  budget: number;
-  revenue: number;
   isFree: boolean;
 }
 
@@ -52,7 +49,4 @@ export interface GetSeriesDataForUpdateFormOutput {
   genre: MediaGenriesEnum;
   status: MediaStatusEnum;
   backdropImageUrl: string;
-  netProfit: number;
-  budget: number;
-  revenue: number;
 }

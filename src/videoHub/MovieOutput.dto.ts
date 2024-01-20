@@ -27,8 +27,5 @@ export interface GetMovieDataForUpdateFormOutput {
   originCountry: MediaCountriesEnum;
   originalLanguage: MediaLanguagiesEnum;
   thumbnailUrl: string;
-  netProfit: number;
-  budget: number;
-  revenue: number;
   videoResourceId: string;
 }
