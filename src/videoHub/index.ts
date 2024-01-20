@@ -23,7 +23,6 @@ export { VideoMineType } from "./types";
 export { MediaCountriesEnum } from "./AddtionalInfo.enum";
 export { MediaLanguagiesEnum } from "./AddtionalInfo.enum";
 export { VideoQualityEnum } from "./Video.enum";
-
 export { VideoResource } from "./VideoResource.entity";
 export { CreateVideoResourceInput } from "./VideoResourceInput.dto";
 export { GetVideoResourceByMediaIdInput } from "./VideoResourceInput.dto";
@@ -32,20 +31,16 @@ export { RetrieveS3ObjectKeyAndUrlOutput } from "./VideoResourceOutput.dto";
 export { Video } from "./Video.entity";
 export { GetUploadVideoSignedUrlInput } from "./VideoInput.dto";
 export { UploadVideoSignedUrlOutput } from "./VideoOutput.dto";
-
 export { Trailer } from "./Trailer.entity";
 export { TrailerMediaEnum } from "./Trailer.enum";
 export { ChangeTrailerMediaInput } from "./TrailerInput.dto";
 export { CreateTrailerInput } from "./TrailerInput.dto";
-
-
 export { Season } from "./Season.entity";
 export { ChangeSeasonSeriesInput } from "./SeasonInput.dto";
 export { CreateSeasonInput } from "./SeasonInput.dto";
 export { GetNextSeasonNumberParams } from "./SeasonInput.dto";
 export { GetSeasonBySeriesIdParams } from "./SeasonInput.dto";
 export { GetNextSeasonNumberOutput } from "./SeasonOutput.dto";
-
 export { Series } from "./Series.entity";
 export { GetManagerSeriesForTableOutput } from "./SeriesOutput.dto";
 export { GetManagerTableOutputSeriesList } from "./SeriesOutput.dto";
@@ -57,7 +52,6 @@ export { DeleteSeriesByIdParams } from "./SeriesInput.dto";
 export { GetManagerSeriesForTableInput } from "./SeriesInput.dto";
 export { UpdateSeriesInput } from "./SeriesInput.dto";
 export { SeriesIdParams } from "./SeriesInput.dto";
-
 export { Episode } from "./Episode.entity";
 export { ChangeEpisodeSeasonInput } from "./EpisodeInput.dto";
 export { CreateEpisodeInput } from "./EpisodeInput.dto";
@@ -72,3 +66,5 @@ export { DeleteMovieByIdParams } from "./MovieInput.dto";
 export { DeleteMultipleMovieByIdzParams } from "./MovieInput.dto";
 export { MovieIdParams } from "./MovieInput.dto";
 export { UpdateMovieInput } from "./MovieInput.dto";
+export { GetSeriesDataForUpdateFormOutput } from "./SeriesOutput.dto";
+export { GetMovieDataForUpdateFormOutput } from "./MovieOutput.dto";

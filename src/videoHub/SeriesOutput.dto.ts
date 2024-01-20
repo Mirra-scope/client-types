@@ -15,7 +15,7 @@ export interface GetManagerTableOutputSeriesList {
   title: string;
   plotSummary: string;
   releaseDate: number;
-  imageUrl: string;
+  backdropImageUrl: string;
   uploadDate: number;
 }
 
@@ -23,7 +23,7 @@ export interface GetManagerSeriesWithImageOutput {
   title: string;
   plotSummary: string;
   ID: string;
-  imageUrl: string;
+  backdropImageUrl: string;
 }
 
 export interface GetSeriesDetailsByIdOutput {
@@ -35,10 +35,24 @@ export interface GetSeriesDetailsByIdOutput {
   title: string;
   plotSummary: string;
   releaseDate: number;
-  imageUrl: string;
+  backdropImageUrl: string;
   uploadDate: number;
   netProfit: number;
   budget: number;
   revenue: number;
   isFree: boolean;
+}
+
+export interface GetSeriesDataForUpdateFormOutput {
+  title: string;
+  plotSummary: string;
+  releaseDate: number;
+  originCountry: MediaCountriesEnum;
+  originalLanguage: MediaLanguagiesEnum;
+  genre: MediaGenriesEnum;
+  status: MediaStatusEnum;
+  backdropImageUrl: string;
+  netProfit: number;
+  budget: number;
+  revenue: number;
 }

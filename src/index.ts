@@ -89,3 +89,5 @@ export { CreateImageByUrlInput } from "./videoHub";
 export { Image } from "./videoHub";
 export { GetSeriesDetailsByIdOutput } from "./videoHub";
 export { UpdateFinancialInfoInput } from "./videoHub";
+export { GetSeriesDataForUpdateFormOutput } from "./videoHub";
+export { GetMovieDataForUpdateFormOutput } from "./videoHub";
