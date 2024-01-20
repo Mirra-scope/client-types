@@ -19,6 +19,7 @@ export interface ChangeMovieInput {
 export interface GetManagerMovieForTableInput {
   Page: number;
   PageSize: number;
+  SearchText: string;
 }
 
 export interface DeleteMovieByIdParams {

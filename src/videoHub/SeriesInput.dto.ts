@@ -12,6 +12,7 @@ export interface CreateSeriesInput {
 export interface GetManagerSeriesForTableInput {
   Page: number;
   PageSize: number;
+  SearchText: string;
 }
 
 export interface DeleteSeriesByIdParams {
