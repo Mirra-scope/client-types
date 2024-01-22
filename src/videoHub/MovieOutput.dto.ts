@@ -29,3 +29,17 @@ export interface GetMovieDataForUpdateFormOutput {
   thumbnailUrl: string;
   videoResourceId: string;
 }
+
+export interface GetMovieDetailsByIdOutput {
+  ID: string;
+  originCountry: MediaCountriesEnum;
+  originalLanguage: MediaLanguagiesEnum;
+  genre: MediaGenriesEnum;
+  status: MediaStatusEnum;
+  title: string;
+  plotSummary: string;
+  releaseDate: number;
+  thumbnailUrl: string;
+  uploadDate: number;
+  isFree: boolean;
+}
