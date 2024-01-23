@@ -8,14 +8,13 @@ export interface GetManagerSeriesForTableOutput {
 
 export interface GetManagerTableOutputSeriesList {
   ID: string;
-  originCountry: MediaCountriesEnum;
-  originalLanguage: MediaLanguagiesEnum;
-  genre: MediaGenriesEnum;
   status: MediaStatusEnum;
   title: string;
   plotSummary: string;
   releaseDate: number;
   backdropImageUrl: string;
+  likeCount: number;
+  avarageRating: number;
   uploadDate: number;
 }
 
