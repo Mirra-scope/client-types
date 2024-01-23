@@ -20,10 +20,6 @@ export interface ChangeSeasonSeriesInput {
   SeriesId: string;
 }
 
-export interface GetSeasonBySeriesIdParams {
-  SeriesId: string;
-}
-
 export interface GetNextSeasonNumberParams {
   SeriesId: string;
 }
